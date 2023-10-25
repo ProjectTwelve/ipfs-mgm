@@ -2,10 +2,10 @@ package utils
 
 import "net/http"
 
-var DIR_LIST_ENDPOINT string = "/ipfs/api/v0/ls?arg="
-var PIN_LIST_ENDPOINT string = "/ipfs/api/v0/pin/ls?stream=true"
-var CAT_ENDPOINT string = "/ipfs/api/v0/cat?arg="
-var IPFS_PIN_ENDPOINT string = "/ipfs/api/v0/add"
+var DIR_LIST_ENDPOINT string = "/api/v0/ls?arg="
+var PIN_LIST_ENDPOINT string = "/api/v0/pin/ls?stream=true"
+var CAT_ENDPOINT string = "/api/v0/cat?arg="
+var IPFS_PIN_ENDPOINT string = "/api/v0/add"
 var HEADER_APP_JSON string = "application/json"
 
 var DIR_ERROR = "this dag node is a directory"
